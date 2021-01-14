@@ -1,0 +1,27 @@
+[
+  {
+  "problem":"Given a sorted (in ascending order) integer array nums of n elements and a target value, write a function to search target in nums. If target exists, then return its index, otherwise return -1.",
+  "visual":"https://github.com/lizkavalski/LeetCode-Challenges/blob/master/Arrays/binarySearch/binarySerch.png",
+  "Algorthism":["Make a function that has accapt an array and a target value.",
+    "Make a for loop that go through the array.",
+    "If the target value matchs an array value.",
+    "return the index.",
+    "Other wise return -1"],
+    "pseudocode":"./assests/psBinarySearch.png",
+    "type":"Array"
+  },
+  {
+    "problem":"Given an array arr of integers, check if there exists two integers N and M such that N is the double of M ( i.e. N = 2 * M).Note:More formally check if there exists two indices i and j such that:",
+    "visual":"https://github.com/lizkavalski/LeetCode-Challenges/blob/master/Arrays/binarySearch/binarySerch.png",
+    "Algorthism":["Create a function that take an array as an input",
+      "Do a loop that goes the length of the arr.",
+      "Do a second loop, which:",
+      "if the index of the frist loop is:",
+      "multiply by 2 or, divide by 2",
+      "equal the index of the sencond loop return true",
+      "if not return false"
+    ],
+      "pseudocode":"./assests/psBinarySearch.png",
+      "type":"Array"
+    }
+]
