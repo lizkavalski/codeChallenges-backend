@@ -1,0 +1,43 @@
+[
+  {"title": "Binary Search",
+  "problem":"Given a sorted (in ascending order) integer array nums of n elements and a target value, write a function to search target in nums. If target exists, then return its index, otherwise return -1.",
+  "visual":"https://github.com/lizkavalski/LeetCode-Challenges/blob/master/Arrays/binarySearch/binarySerch.png",
+  "Algorthism":["Make a function that has accapt an array and a target value.",
+    "Make a for loop that go through the array.",
+    "If the target value matchs an array value. - return the index.",
+    "Other wise return -1"],
+    "pseudocode":"./assests/arrays/psBinarySearch.png",
+    "type":"Array"
+  },
+  {
+    "title":"Check if N and it Double Exist",
+    "problem":"Given an array arr of integers, check if there exists two integers N and M such that N is the double of M ( i.e. N = 2 * M).Note:More formally check if there exists two indices i and j such that:",
+    "visual":"https://github.com/lizkavalski/LeetCode-Challenges/blob/master/Arrays/checkIfExist/Ifexist.jpg",
+    "Algorthism":["Create a function that take an array as an input",
+      "Do a loop that goes the length of the arr.",
+      "Do a second loop, which:",
+      "if the index of the frist loop is:",
+      "multiply by 2 or, divide by 2 - equal the index of the second a variable that is an empty object(or array).",
+      "loop return true",
+      "if not return false"
+    ],
+      "pseudocode":"./assests/arrays/psCheckIfExist.png",
+      "type":"Array"
+    },
+    {
+    "title":"Contains Duplicates",
+    "problem":"Given an array of integers, find if the array contains any duplicates. Note: Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.",
+    "visual":"https://github.com/lizkavalski/LeetCode-Challenges/raw/master/Arrays/containsDuplicates/containsdup.jpg",
+    "Algorthism":["Create a funtion that takes an intake of an array",
+      "Create a Hashmap",
+      "a variable that is an empty object(or array).",
+      "Create a for loop.",
+      "if hashmap contains index valuse of input array. -return ture",
+      "set hashmap index to contain the input array's index as ture",
+      "Otherwise return false."
+    ],
+      "pseudocode":"./assests/arrays/psContainsDup.png",
+      "type":"Array"
+    }
+
+]
