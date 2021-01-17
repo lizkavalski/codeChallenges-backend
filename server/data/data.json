@@ -6,8 +6,8 @@
     "Make a for loop that go through the array.",
     "If the target value matchs an array value. - return the index.",
     "Other wise return -1"],
-    "pseudocode":"./assests/arrays/psBinarySearch.png",
-    "type":"Array"
+    "pseudocode":"./assests/psBinarySearch.png",
+    "type":"array"
   },
   {
     "title":"Check if N and it Double Exist",
@@ -21,8 +21,8 @@
       "loop return true",
       "if not return false"
     ],
-      "pseudocode":"./assests/arrays/psCheckIfExist.png",
-      "type":"Array"
+      "pseudocode":"./assests/psCheckIfExist.png",
+      "type":"array"
     },
     {
     "title":"Contains Duplicates",
@@ -37,7 +37,22 @@
       "Otherwise return false."
     ],
       "pseudocode":"./assests/arrays/psContainsDup.png",
-      "type":"Array"
-    }
+      "type":"array"
+    },
+    {
+        "title":"Duplicate Zeros",
+        "problem":"Given a fixed length array arr of integers, duplicate each occurrence of zero, shifting the remaining elements to the right. Note -That elements beyond the length of the original array are not written. Do the above modifications to the input array in place, do not return anything from your function.",
+        "visual":"https://github.com/lizkavalski/LeetCode-Challenges/raw/master/Arrays/containsDuplicates/containsdup.jpg",
+        "Algorthism":["Make a function that accepts an array as an input",
+          "Make a for loop.",
+          "If the index value is zero - define the length of the array as length of array minus one",
+          "use .splice -.splice(): is a javasrcipt built-in that allows changes to the contents of an array by removing or replacing existing elements and/or adding new elements in.",
+          "increments i",
+          "return the array."
+        ],
+          "pseudocode":"./assests/arrays/psdupZeros.png",
+          "type":"array"
+    },
+    {}
 
 ]
