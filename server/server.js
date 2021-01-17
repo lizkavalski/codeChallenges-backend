@@ -1,10 +1,10 @@
+'use strict'
 const express = require('express');
 const notfound = require('../server/middleware/404.js');
 const errorHandler = require('../server/middleware/error.js');
 const {questions,getChallenge, questionByType} = require('../server/middleware/getChallenge.js');
 
 const app = express();
-
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
