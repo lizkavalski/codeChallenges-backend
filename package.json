@@ -18,7 +18,8 @@
     "url": "https://github.com/lizkavalski/codeChallenges-backend/issues"
   },
   "homepage": "https://github.com/lizkavalski/codeChallenges-backend#readme",
-  "dependencies": { 
+  "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jest": "^26.6.3"
