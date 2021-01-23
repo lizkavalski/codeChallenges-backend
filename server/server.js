@@ -14,10 +14,10 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.send('You are in!');
 });
-app.get('/question',(req,res)=>{
+app.get('/challenges',(req,res)=>{
   res.json(questions);
 });
-app.get('/question/random', (req, res) => {
+app.get('/random/challenge', (req, res) => {
   res.json(getChallenge());
 });
 
