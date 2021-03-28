@@ -30,5 +30,8 @@
   },
   "jest": {
     "verbose": true
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
