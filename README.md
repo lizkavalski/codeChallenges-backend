@@ -23,9 +23,11 @@ Currently their are three routes:
  
  * `/random/challenge/:type`- To veiw a random Code challenge by `type`. 
 
- To use the route a person just has to take the __'link to the deploy server__ and place the desire route to the end of the link.
+ All routes are only 'GET' route meaning a person can only read the information from that route. To use the route a person just has to take the __'link to the deploy server'__ and place the desire route to the end of the link.
 
- To add to the database a person would have to clone this repo. Then in the `data.json` put the 6 parts of the challenges(a title, the problem, a visual, the algorthism, the pseudocode, and the type of challenge) in a JSON file format. The 'title' is what the challenge is called. While the 'problem' gives some details about the challenge, and start off as "Problem:..." for formating in the front-end. Also since visual and pseudocode are images they a string URL that will go to the location of the image. Then in the algorthism section the steps are in a array fromat which allow me to make them into bullets points in the fronr-end.Below is a example of what a 'new' challenge should look like in the database.
+ To add to the database a person would have to clone this repo. Then in the `data.json` put the 6 parts of the challenges(a title, the problem, a visual, the algorthism, the pseudocode, and the type of challenge) in a JSON file format. The 'title' is what the challenge is called. While the 'problem' gives some details about the challenge, and start off as "Problem:..." for formating in the front-end. Also since visual and pseudocode are images put a string URL that will go to the location of the image. It can use a base64 string for the images, but I highly discoruage it. The reason being is that it make the image about 30% bigger and slow the server. Then in the algorthism section the steps are in a array fromat which allow me to make them into bullets points in the front-end.
+ 
+ Below is a example of what a 'new' challenge should look like in the database.
 
  ```
   {
