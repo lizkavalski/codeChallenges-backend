@@ -3,6 +3,4 @@ node_js:
   - "12"
 
 script:
-  - npm install
-  - npm run build --if-present
   - npm test
