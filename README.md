@@ -13,7 +13,7 @@ Having a place to store Code Challenges, and being able to get a random challeng
 
 ## Solution
 
-Create a server that has Code Challenges problems, and making a middleware function that get a random challege. Inside the server each challeges has six part: a title, the problem, a visual, the algorthism, the pseudocode, and the type of challenge. The visual and pseudocode are images that are stored ['here'](https://github.com/lizkavalski/imageStorage). While there three types: Arrays, Linked List, and Trees which are used for one of the routues.
+Create a server that has Code Challenges problems, and making a middleware function that get a random challenge. Inside the server each challenges has six part: a title, the problem, a visual, the algorthism, the pseudocode, and the type of challenge. The visual and pseudocode are images that are stored ['here'](https://github.com/lizkavalski/imageStorage). While there three types: Arrays, Linked List, and Trees which are used for one of the routues.
 
 
 Currently their are three routes:
@@ -23,7 +23,7 @@ Currently their are three routes:
  
  * `/random/challenge/:type`- To veiw a random Code challenge by `type`. 
 
- All routes are only 'GET' route meaning a person can only read the information from that route. To use the route a person just has to take the __'link to the deploy server'__ and place the desire route to the end of the link.
+ All routes are only 'GET' route meaning a person can only read the information from that route. To use a route a person just has to take the __'link to the deploy server'__ and place the desire route to the end of the link.
 
  To add to the database a person would have to clone this repo. Then in the `data.json` put the 6 parts of the challenges(a title, the problem, a visual, the algorthism, the pseudocode, and the type of challenge) in a JSON file format. The 'title' is what the challenge is called. While the 'problem' gives some details about the challenge, and start off as "Problem:..." for formating in the front-end. Also since visual and pseudocode are images put a string URL that will go to the location of the image. It can use a base64 string for the images, but I highly discoruage it. The reason being is that it make the image about 30% bigger and slow the server. Then in the algorthism section the steps are in a array fromat which allow me to make them into bullets points in the front-end.
  
