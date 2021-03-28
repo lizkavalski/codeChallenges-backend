@@ -23,7 +23,7 @@ app.get('/random/challenge', (req, res) => {
 });
 
 
-app.get('/question/random/:type', (req, res) => {
+app.get('/random/challenge/:type', (req, res) => {
   res.json(questionByType(req.params.type));
 });
 
