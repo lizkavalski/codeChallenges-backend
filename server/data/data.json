@@ -475,5 +475,23 @@
     ],
     "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/tree/psPreorder.png",
     "type":"tree"
+  },
+  {
+    "title":"Valid Parentheses",
+    "problem":"Problem:Given a string s containing just the characters '(', ')',{', '}', '[' and ']', determine if the input string is valid. Note- An input string is valid if: Open brackets must be closed by the same type of brackets Open brackets must be closed in the correct order.",
+    "visual":"https://lizkavalski.github.io/imageStorage/visual/validParentheses.png",
+    "algorthism":[
+      "Create a function that take in a string(s) containing differnt type of praentheses( '(',')','{', '}','[',']')",
+      "Create an empty array",
+      "Make a for loop",
+      "Define p as index value of s",
+      "If p matches '(', then push ')' into stack ",
+      "If p matches '[', then push ']' into stack ",
+      "If p matches '{', then push '}' into stack ",
+      "Else pop from the stack if dose not match p and return false",
+      "retrun stack legth equal 0"
+    ],
+    "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/psValidParentheses.png",
+    "type":"stack"
   }
 ]
