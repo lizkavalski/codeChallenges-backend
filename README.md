@@ -1,6 +1,7 @@
 # codeChallenges-backend 
-[![Build Status](https://travis-ci.org/lizkavalski/codeChallenges-backend.svg?branch=main)](https://travis-ci.org/lizkavalski/codeChallenges-backend)
+[![Travis Build Status](https://travis-ci.org/lizkavalski/codeChallenges-backend.svg?branch=main)](https://travis-ci.org/lizkavalski/codeChallenges-backend)
 
+![example workflow](https://github.com/lizkavalski/codeChallenges-backend/actions/workflows/node.js.yml/badge.svg)
 ## Summary
 The backend to the [Code Challenge Flash Cards](https://github.com/lizkavalski/codeChallenge-frontEnd), where the challenges are stored.
 
