@@ -1,4 +1,5 @@
-# codeChallenges-backend
+# codeChallenges-backend 
+[![Build Status](https://travis-ci.org/lizkavalski/codeChallenges-backend.svg?branch=main)](https://travis-ci.org/lizkavalski/codeChallenges-backend)
 
 ## Summary
 The backend to the [Code Challenge Flash Cards](https://github.com/lizkavalski/codeChallenge-frontEnd), where the challenges are stored.
