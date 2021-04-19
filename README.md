@@ -1,4 +1,5 @@
-# codeChallenges-backend
+# codeChallenges-backend 
+[![Build Status](https://travis-ci.org/lizkavalski/codeChallenges-backend.svg?branch=main)](https://travis-ci.org/lizkavalski/codeChallenges-backend)
 
 ## Summary
 The backend to the [Code Challenge Flash Cards](https://github.com/lizkavalski/codeChallenge-frontEnd), where the challenges are stored.
@@ -30,10 +31,10 @@ Currently their are three routes:
  Below is a example of what a 'new' challenge should look like in the database.
 
  ```
-  {
+{
     "title": "Binary Search",
     "problem":"Problem: Given a sorted (in ascending order) integer array nums of n elements and a target value, write a function to search target in nums. If target exists, then return its index, otherwise return -1.",
-    "visual":"https://lizkavalski.github.io/imageStote/visual/array/binarySerch.png",
+    "visual":"https://lizkavalski.github.io/imageStorage/visual/array/binarySerch.png",
     "algorthism":[
       "Make a function that has accapt an array and a target value.",
       "Define a variable (low) as zero.",
@@ -44,10 +45,10 @@ Currently their are three routes:
       "If else  index is more than target value. - redifine high as middle minus one",
       "else return middle",
       "return -1"
-      ],
-    "pseudocode":"https://lizkavalski.github.io/imageStote/pseudo/arrays/psBinarySearch.png",
+  ],
+    "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/arrays/psBinarySearch.png",
     "type":"array"
-  }
+  }, 
  ```    
 The challenges are Leet Code Challenges and  all 'answers' are plausible soluions to the code challenges.
 
