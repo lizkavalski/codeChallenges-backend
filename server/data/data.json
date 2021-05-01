@@ -3,14 +3,14 @@
     "title": "Binary Search",
     "problem":"Problem: Given a sorted (in ascending order) integer array nums of n elements and a target value, write a function to search target in nums. If target exists, then return its index, otherwise return -1.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/binarySerch.png",
-    "algorthism":[
-      "Make a function that has accapt an array and a target value.",
+    "algorithm":[
+      "Make a function that has accept an array and a target value.",
       "Define a variable (low) as zero.",
       "Define a variable(high) as length of array minus 1.",
       "While low is less than or equal to high.",
       "Deifne varibale(middle) as low plus high divide by 2. - Using Math.floor to make sure numbers are whole numbers",
-      "If array index is less than target value. - redifine low as middle plus one",
-      "If else  index is more than target value. - redifine high as middle minus one",
+      "If array index is less than target value. - redfine low as middle plus one",
+      "If else  index is more than target value. - redfine high as middle minus one",
       "else return middle",
       "return -1"
   ],
@@ -21,10 +21,10 @@
     "title":"Check if N and it Double Exist",
     "problem":"Problem:Given an array of integers, check if there exists two integers N and M such that N is the double of M ( i.e. N = 2 * M).",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/CheckIfExist.png",
-    "algorthism":["Create a function that take an array as an input",
+    "algorithm":["Create a function that take an array as an input",
       "Do a loop that goes the length of the arr.",
       "Do a second loop, which:",
-      "if the index of the frist loop is:",
+      "if the index of the first loop is:",
       "multiply by 2 or, divide by 2 - equal the index of the second a variable that is an empty object(or array).",
       "loop return true",
       "if not return false"
@@ -36,12 +36,12 @@
     "title":"Contains Duplicates",
     "problem":"Problem: Given an array of integers, find if the array contains any duplicates. Note: Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/ContainsDup.png",
-    "algorthism":["Create a funtion that takes an intake of an array",
+    "algorithm":["Create a function that takes an intake of an array",
       "Create a Hashmap",
       "a variable that is an empty object(or array).",
       "Create a for loop.",
-      "if hashmap contains index valuse of input array. -return ture",
-      "set hashmap index to contain the input array's index as ture",
+      "if hashmap contains index values of input array. -return true",
+      "set hashmap index to contain the input array's index as true",
       "Otherwise return false."
     ],
       "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/arrays/psContainsDup.png",
@@ -51,11 +51,11 @@
     "title":"Duplicate Zeros",
     "problem":"Problem: Given a fixed length array of integers, duplicate each occurrence of zero, by shifting the remaining elements to the right. Note:That elements beyond the length of the original array are not written. Do the above modifications to the input array in place, do not return anything from your function.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/dupZeros.png", 
-    "algorthism":[
+    "algorithm":[
       "Make a function that accepts an array as an input",
       "Make a for loop.",
       "If the index value is zero - define the length of the array as length of array minus one",
-      "use .splice -.splice(): is a javasrcipt built-in that allows changes to the contents of an array by removing or replacing existing elements and/or adding new elements in.",
+      "use .splice -.splice(): is a JavaScript built-in that allows changes to the contents of an array by removing or replacing existing elements and/or adding new elements in.",
       "increments i",
       "return the array."
     ],
@@ -66,7 +66,7 @@
     "title":"Find the Numbers with Number of Digits",
     "problem":"Problem: Given an array nums of integers, return how many of them contain an even number of digits.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/findNum.png",
-    "algorthism":[
+    "algorithm":[
       "Create a function that takes an array",
       "Set a counter to keep track of the even digits",
       "Make a loop to go through the array",
@@ -82,13 +82,13 @@
     "title":"How Many Numbers Are Smaller than the Current Number",
     "problem":"Problem:Given the array numbers, for each number[i], or nums[i], find out how many numbers in the array are smaller than it. That is, for each nums[i] you have to count the number of valid j’s such that j != i and nums[j] < nums[i]. Return the answer in an array",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/smallerNum.png",
-    "algorthism":[
+    "algorithm":[
       "Create a fuction that takes an array",
       "Create variable to hold new array",
       "Create a nested array",
-      "In the frist loop -set a counter",
-      "In the second loop -compare the indexs of the frist and second loop.",
-      "If the index of the sencond loop is less then the frist add to the conuter.",
+      "In the first loop -set a counter",
+      "In the second loop -compare the indexes of the first and second loop.",
+      "If the index of the second  loop is less than the first add to the counter.",
       "Push the counter to the new array",
       "Reset the counter",
       "return the new array"
@@ -98,15 +98,15 @@
   },
   {
     "title":"Majority Element",
-    "problem":"Problem: Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.Note- You may assume that the array is non-empty and the majority element always exist in the array.",
+    "problem":"Problem: Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times. Note- You may assume that the array is non-empty and the majority element always exist in the array.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/majorityEle.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function that take an array as an input.",
       "If input is not an array return null.",
       "set a counter to one",
       "set majority element, or mElement to value of array index at 0",
       "Make a for loop",
-      "If mElement is not the value array index and conut is zero - add to the count and set mElement to the value of array index.",
+      "If mElement is not the value array index and count is zero - add to the count and set mElement to the value of array index.",
       "Else if mElement is not the value of array index and count is not 0 -subtract to from the count.",
       "Else add to the count.",
       "Return the mElement"
@@ -116,19 +116,19 @@
   },
   {
     "title":"Marge Sorted Array",
-    "problem":"Problem: Given two sorted integer arrays (nums1 and nums2), merge the second array(nums2) into the frist(nums1) as one sorted array.",
+    "problem":"Problem: Given two sorted integer arrays (nums1 and nums2), merge the second array(nums2) into the first(nums1) as one sorted array.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/marge.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function that take in 2 arrays with a number of elements of each one (m and n)",
       "If n equal zero return array 1",
-      "Decament m",
-      "Decament n",
+      "Decrement m",
+      "Decrement n",
       "While n is greater or equal of 0",
       "If array 1 index value of m is greater then array 2 index value of n",
       "Array one index value of m plus n plus 1 equal array one index value m",
-      "Decament m",
+      "Decrement m",
       "Else array 1 index value of m plus n plus 1 equal array2 index value of n",
-      "Decament n"
+      "Decrement n"
     ],
     "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/arrays/psmarge.png",
     "type":"array"
@@ -137,13 +137,13 @@
     "title":"Max Consecutive Ones",
     "problem":"Problem: Given a binary array, find the maximum number of consecutive 1s in this array. ",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/MaxCon.png",
-    "algorthism":[
-      "Make a funtion that take in an binary array",
+    "algorithm":[
+      "Make a function that take in an binary array",
       "Set the max to zero",
       "Set current to zero",
       "Make a for loop",
       "If index value of array -increment current",
-      "If current is greater then max- max is current",
+      "If current is greater than max- max is current",
       "Else current is zero",
       "Return the max"
     ],
@@ -154,14 +154,14 @@
     "title":"Move the Zero",
     "problem":"Problem: Given an array numbers, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/moveZero.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function that take in an array",
       "set a counter",
       "Make a for loop",
       "If the array's index value is not zero",
-      "Then array index incerment the count now is array index value",
+      "Then array index increment the count now is array index value",
       "While the count is less the length of the array",
-      "array index incerment the count is zero",
+      "array index increment the count is zero",
       "Return the array"
     ],
     "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/arrays/psmoveZeros.png",
@@ -171,17 +171,17 @@
     "title":"Remove Duplicates from a Sorted Array",
     "problem":"Problem:Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.- Note: Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/removeDupSortedArr.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function the take in an array of numbers",
       "Check the length of the array is greater then 0",
       "If not return 0",
       "Define i as 0 as a pointer",
       "Make a for loop which acts as a second pointer",
-      "check the index value array frist and second pointers",
+      "check the index value array first and second pointers",
       "if not the same",
-      "incerment the frist poniter",
-      "set the value of the frist point to the sencond",
-      "Return the value of frist pointer plus one."
+      "increment the first pointer",
+      "set the value of the first point to the second ",
+      "Return the value of first pointer plus one."
     ],
     "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/arrays/psremoveDupSortedarr.png",
     "type":"array"
@@ -190,12 +190,12 @@
     "title":"Remove Element",
     "problem":"Problem: Given an array numbers and a value (val), remove all instances of that value in-place and return the new length. -Note: Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.The order of elements can be changed. It doesn't matter what you leave beyond the new length.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/removeElement.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function that take in an array and a value",
       "Make a for loop",
       "If the index value of the array equal the value use array.splice",
-      "(.splice(): is a javasrcipt built-in that allows changes to the contents of an array by removing or replacing existing elements and/or adding new elements in.)",
-      "Else incerment Return the leanth of the array"
+      "(.splice(): is a JavaScript built-in that allows changes to the contents of an array by removing or replacing existing elements and/or adding new elements in.)",
+      "Else increment Return the length of the array"
     ],
     "pseudocode":"",
     "type":"array"
@@ -204,7 +204,7 @@
     "title":"Squares of a sorted Array",
     "problem":"Problem: Given an array of integers A sorted in non-decreasing order, return an array of the squares of each number, also in sorted non-decreasing order.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/SortedSquare.png",
-    "algorthism":[
+    "algorithm":[
       "Make a funcation that take an array",
       "Make an empty array",
       "Make a for loop",
@@ -218,11 +218,11 @@
     "title":"Two Sums",
     "problem":"Problem: Given an array of integers, return indices of the two numbers such that they add up to a specific target. - Note:You may assume that each input would have exactly one solution, and you may not use the same element twice.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/twoSum.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function that takes an array and target",
-      "Use a for loop as the frist pointers",
+      "Use a for loop as the first pointers",
       "Then another for loop as a second",
-      "Check if index value of the frist loop plus the the index value of the second equal the target.",
+      "Check if index value of the first loop plus the index value of the second equal the target.",
       "if so return the index value of i and j"
     ],
     "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/arrays/pstwoSum.png",
@@ -232,15 +232,15 @@
     "title":"Valid Monutain Array",
     "problem":"Problem: Given an array A of integers, return true if and only if it is a valid mountain array.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/array/mountainArray.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function",
       "Check the length of the array",
       "Set the direction to one",
-      "Set the previous to the begining of the array",
+      "Set the previous to thebeginningof the array",
       "Make a for loop (set a current to the value of the array index)",
-      "If the current is greater then the previous",
+      "If the current is greater than the previous",
       "also if the direction is not 1",
-      "retrun false",
+      "return false",
       "set previous to current and continue going through the array",
       "If current is less the previous",
       "also if the value of i equal 1",
@@ -248,7 +248,7 @@
       "set the direction to 0",
       "set previous to current and continue going through the array",
       "Else return false",
-      "retrun true or false if dirction is zero"
+      "return true or false if direction  is zero"
     ],
     "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/arrays/psValidMount.png",
     "type":"array"
@@ -257,7 +257,7 @@
     "title":"Delete Node in a Linked List",
     "problem":"Problem: Write a function to delete a node in a singly-linked list. You will not be given access to the head of the list, instead you will be given access to the node to be deleted directly. -Note: It is guaranteed that the node to be deleted is not a tail node in the list.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/linkedList/deletell.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function that take in a node.",
       "Define node.value as node.next.value",
       "Define node.next as node.next.next"
@@ -269,7 +269,7 @@
     "title":"Convert Sorted LinkList to a Binary Search Tree",
     "problem":"Problem: Given the head of a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST. -Note:For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/linkedList/convertLLtoBST(1).png",
-    "algorthism":[
+    "algorithm":[
       "Make a function that take a link-list.",
       "Define an empty array to push values from the link-list to.",
       "While as at the head of the link-list.",
@@ -292,7 +292,7 @@
     "title":"Middle of the Linked List",
     "problem":"Problem: Given a non-empty, singly linked list with head node head, return a middle node of linked list. -Note: If there are two middle nodes, return the second middle node.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/linkedList/middleLL.png",
-    "algorthism":[
+    "algorithm":[
       "Make a Function that accept a linked list.",
       "Check if the input is a linked list.",
       "Make a function that count the length of the linked list.",
@@ -300,12 +300,12 @@
       "Traverse through the linked list.",
       "Counting how many nodes.",
       "Return the counter.",
-      "Make a funtion that take a input of a node and middle.",
+      "Make a function that take a input of a node and middle.",
       "Define current as the head.",
-      "For the length of the middle go to the nexted node.",
+      "For the length of the middle go to the next node.",
       "Return node.",
       "Define middle as length of the linked list divide by two.",
-      "Return with funtion that take the linked list and middle."
+      "Return with function that take the linked list and middle."
     ],
     "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/linkedlist/psMiddleNode.png",
     "type":"linked-list"
@@ -314,7 +314,7 @@
     "title":"Remove Duplicates from Sorted Linked List",
     "problem":"Problem: Given a sorted linked list, delete all duplicates such that each element appear only once.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/linkedList/removeDup(1).png",
-    "algorthism":[
+    "algorithm":[
       "Make a function that take in a linked list.",
       "Check the input is a linked list.",
       "Define an empty array.",
@@ -332,12 +332,12 @@
     "title":"Remove Linked List Element",
     "problem":"Problem: Remove all elements from a linked list of intgers that have value(val)",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/linkedList/removeLLElement.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function that take an input of a linked list and a value.",
       "Check input is a linked list",
       "While at the head - If the val of the head is the same as the values. Else go to the next node.",
       "Define current as head.",
-      "While current and current.next.-If current.next value is the the same as the given value. Define current.next as current.next.next.",
+      "While current and current.next.-If current.next value is the same as the given value. Define current.next as current.next.next.",
       "Else current is current.next",
       "Return head"
     ],
@@ -348,7 +348,7 @@
     "title":"Reverse Linked List",
     "problem":"Problem: Reverse a singly Linked List",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/linkedList/reverseLL.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function with the input being a linked list.",
       "Check that it is a linked list. - If not return null.",
       "Define current as head.",
@@ -367,7 +367,7 @@
     "title":"Convert Sorted Array to Binary Search Tree",
     "problem":"Problem:Given an array where elements are sorted in ascending order, convert it to a height balanced BST. Note: For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/tree/arraytoBST.png",
-    "algorthism":[
+    "algorithm":[
       "Create a function that take an array.",
       "Check if it is an array. -if not return null.",
       "Define middle as the length of the array divide by 2.",
@@ -383,7 +383,7 @@
     "title":"Maximum Depth of a Binary Tree",
     "problem":"Problem: Given a binary tree, find its maximum depth. The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node. -Note: A leaf is a node with no children",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/tree/maxdepth.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function.",
       "Check if input is a root. If not reutrn null.",
       "To go to the left call the function with the input being root.left.",
@@ -397,17 +397,17 @@
     "title":"Path Sum",
     "problem":"Problem: Given a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum. -Note: A leaf is a node with no children.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/tree/PathSum.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function with the input of a tree and sum.",
       "Check if there is a tree: If not return false.",
-      "Have hold varible that is false",
+      "Have hold variablethat is false",
       "Make a helper function that take a node and set the counter to zero.",
       "Add to the counter the value of the node.",
       "If it node.left: Call the helper function with node.left and counter.",
       "If it node.right: Call the helper function with node.left and counter.",
-      "If not node.left and not node.right: If sum matchs the counter make hold varible is true",
-      "Call the helper funtion",
-      "return the hold varible"
+      "If not node.left and not node.right: If sum match the counter make hold variable is true",
+      "Call the helper function",
+      "return the hold variable"
     ],
     "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/tree/psPathSum.png",
     "type":"tree"
@@ -416,13 +416,13 @@
     "title":"Range Sum of BST",
     "problem":"Problem: Given the root node of a binary search tree, return the sum of values of all nodes with value between L and R (inclusive).(The binary search tree is guaranteed to have unique values.) Note: L is the low number and R is the highest number",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/tree/RangeSum.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function that take in a root and two numbers( L, and R)",
       "Set a counter",
       "If the root is equal to null: Returns the counter",
       "If the L is greater then the root value.: Add the value to counter which calls the function again, but instead of just the root it root of the left",
       "If the root value is greater/equal to the left and less then/equal to the of the right: Add to the counter of root.val.",
-      "If root.val is less then the right it: Add to the counter and calls the funtion again from the root of the right.",
+      "If root.val is less then the right it: Add to the counter and calls the function again from the root of the right.",
       "Return the counter"
     ],
     "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/tree/psRangeSum.png",
@@ -432,11 +432,11 @@
     "title":"Search in a Binary Search Tree",
     "problem":"Problem: Given the root node of a binary search tree (BST) and a value. You need to find the node in the BST that the node's value equals the given value. Return the subtree rooted with that node. If such node doesn't exist, you should return NULL. ",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/tree/searchBST(1).png",
-    "algorthism":[
+    "algorithm":[
       "Make a function that takes a root and a value",
       "If the root is null or, is the same value of the tree: Return the root",
-      "If the value is less the root value: Then it gose to the left. In which the the function is called again with the root being left of the orginaly root.",
-      "If value is more then the root value: Then it gose to the right. In which the the function is called again with the root being right of the orginaly root."
+      "If the value is less the root value: Then it goes to the left. In which the function is called again with the root being left of the originally root.",
+      "If value is more then the root value: Then it goes to the right. In which the function is called again with the root being right of the originally root."
     ],
     "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/tree/psSearchTree.png",
     "type":"tree"
@@ -445,7 +445,7 @@
     "title":"N-ary Tree Postorder Traversal",
     "problem":"Problem: Given an n-ary tree, return the postorder traversal of its nodes' values. Nary-Tree input serialization is represented in their level order traversal, each group of children is separated by the null value. ",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/tree/postOrder.png",
-    "algorthism":[
+    "algorithm":[
       "Make a function that take in a root",
       "Check if their is a root.",
       "If not return an empty array.",
@@ -463,11 +463,11 @@
     "title":"N-ary Tree Preoder Traversal",
     "problem":"Problem: Given an n-ary tree, return the preorder traversal of its nodes' values. Nary-Tree input serialization is represented in their level order traversal, each group of children is separated by the null value.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/tree/postOrder.png",
-    "algorthism":[
-      "Make a funtion that take in a root.",
+    "algorithm":[
+      "Make a function that take in a root.",
       "Make an empty array",
       "Check their is a root.-if not return results/ empty array",
-      "Make a funtion that traverse through the tree with an input of a node.",
+      "Make a function that traverse through the tree with an input of a node.",
       "push node values into the empty array.",
       "for the length of the node.childern -call on the fuction with the input being of the node.childern at index value.",
       "Call on the function to traverse through the tree with the input being the root.",
@@ -480,7 +480,7 @@
     "title":"Valid Parentheses",
     "problem":"Problem:Given a string s containing just the characters '(', ')',{', '}', '[' and ']', determine if the input string is valid. Note- An input string is valid if: Open brackets must be closed by the same type of brackets Open brackets must be closed in the correct order.",
     "visual":"https://lizkavalski.github.io/imageStorage/visual/validParentheses.png",
-    "algorthism":[
+    "algorithm":[
       "Create a function that take in a string(s) containing differnt type of praentheses( '(',')','{', '}','[',']')",
       "Create an empty array",
       "Make a for loop",
@@ -489,7 +489,7 @@
       "If p matches '[', then push ']' into stack ",
       "If p matches '{', then push '}' into stack ",
       "Else pop from the stack if dose not match p and return false",
-      "retrun stack legth equal 0"
+      "return stack legth equal 0"
     ],
     "pseudocode":"https://lizkavalski.github.io/imageStorage/pseudo/psValidParentheses.png",
     "type":"stack"
